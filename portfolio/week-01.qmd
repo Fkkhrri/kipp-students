@@ -24,7 +24,7 @@ Dokumen ini disusun untuk memenuhi lembar kerja refleksi dan pemetaan peran komu
 
 ## Episode yang dianalisis
 
-**Konteks:** Menjelang *milestone* penyerahan modul sistem, berkas API dan skema basis data milik “Farrel” belum diunggah padahal tenggat kesepakatan sudah lewat satu hari. Reaksi awal saya adalah menganggap Farrel menyepelekan tanggung jawab tim (*story*). Faktanya baru satu: repositori Git belum menerima *commit* berkas tersebut (*fact*).
+**Konteks:** Menjelang *milestone* penyerahan modul sistem, berkas API dan skema basis data milik “Banu” belum diunggah padahal tenggat kesepakatan sudah lewat satu hari. Reaksi awal saya adalah menganggap Farrel menyepelekan tanggung jawab tim (*story*). Faktanya baru satu: repositori Git belum menerima *commit* berkas tersebut (*fact*).
 
 **Objective:** Mendapatkan kepastian status kode dan menyusun langkah penyesuaian jadwal integrasi tanpa merusak rasa saling percaya di dalam tim.
 
