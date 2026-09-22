@@ -76,3 +76,12 @@ Asumsi awal saya bahwa “tim membutuhkan peningkatan spesifikasi komputasi serv
 | **Agreement, Action & Relationship** | 4 | *Shared problem statement* dirumuskan bersama dan dikonfirmasi langsung oleh mitra wawancara. |
 
 **Total: 16/20 — Kompeten.** (Belum mencapai nilai maksimal 20 karena temuan ini baru berbasis satu sesi wawancara mendalam dan memerlukan verifikasi silang pada skala tim yang lebih besar).
+
+::: assessor-only
+### Assessment dosen
+
+**Skor:** — / 20\
+**Evidence yang mendukung:** —\
+**Prioritas perbaikan:** —\
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::

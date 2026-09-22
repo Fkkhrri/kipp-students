@@ -93,3 +93,12 @@ Memisahkan event, fact, story, emotion, internal character, choice, dan action.
 | **Agreement, Action & Relationship** | 4 | Kesepakatan internal ditepati dan komunikasi di repositori menjaga kolaborasi kerja tim tetap positif. |
 
 **Total: 18/20 — Kompeten.** (Belum mencapai skor 4 di semua konponen karena belum menganalisis secara mendalam pemicu historis mengapa evaluasi teknis kerap memicu respons rasa malu internal).
+
+::: assessor-only
+### Assessment dosen
+
+**Skor:** — / 20\
+**Evidence yang mendukung:** —\
+**Prioritas perbaikan:** —\
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::

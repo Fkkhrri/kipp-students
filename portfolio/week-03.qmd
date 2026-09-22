@@ -65,3 +65,12 @@ Selama dua minggu pengerjaan proyek, rekan satu tim saya, “Izar”, memiliki k
 | **Agreement, Action & Relationship** | 4 | Batasan jam, kanal pencatatan alternatif, dan perbaikan sikap dinyatakan secara eksplisit |
 
 **Total: 16/20 — Kompeten.** (Belum mencapai skor sempurna 20 karena belum menganalisis skenario mitigasi darurat jika terdapat sistem *down* yang memang memerlukan penanganan mendesak di luar jam kerja normal).
+
+::: assessor-only
+### Assessment dosen
+
+**Skor:** — / 20\
+**Evidence yang mendukung:** —\
+**Prioritas perbaikan:** —\
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::

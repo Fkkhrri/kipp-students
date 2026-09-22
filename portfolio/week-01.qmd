@@ -28,13 +28,13 @@ Dokumen ini disusun untuk memenuhi lembar kerja refleksi dan pemetaan peran komu
 
 **Objective:** Mendapatkan kepastian status kode dan menyusun langkah penyesuaian jadwal integrasi tanpa merusak rasa saling percaya di dalam tim.
 
-> **Saya:** “Farrel, repositori modul basis data belum terisi draf skema terbaru. Ada kendala teknis atau hambatan lain yang sedang dihadapi?”  
-> **Farrel:** “Ada bentrok konfigurasi lokal dan saya sempat kesulitan menguji koneksi *endpoints*-nya semalam.”  
+> **Saya:** “Banu, repositori modul basis data belum terisi draf skema terbaru. Ada kendala atau hambatan lain ga?”  
+> **Banu:** “Ada bentrok konfigurasi lokal dan aku sempat kesulitan menguji koneksi *endpoints*-nya semalam.”  
 > **Saya:** “Jadi kendalanya ada di isolasi *environment* pengujian, bukan di perancangan skema datanya?”  
-> **Farrel:** “Iya, skema dasarnya sudah selesai, tinggal memastikan respons rutenya valid.”  
+> **Banu:** “Iya, skema dasarnya sudah selesai, tinggal mastiin respons rutenya valid.”  
 > **Saya:** “Kita punya dua opsi: kita *push* dulu skemanya siang ini agar tim frontend bisa bekerja dengan *mock*, lalu kita selesaikan konfigurasi lokal bersama sore nanti. Opsi mana yang memungkinkan?”
 
-Respons Farrel menggeser *repertoire* saya dari dorongan mendesak kepatuhan (*demanding*) menjadi pemecahan masalah teknis secara kolaboratif (*problem-solving*). Kesepakatan akhir: Farrel mengunggah skema mentah sebelum pukul 13.00, dan kami menjadwalkan sesi bersama selama 30 menit pada pukul 16.00 untuk menyelesaikan konfigurasi pengujian.
+Respons Banu menggeser *repertoire* saya dari dorongan mendesak kepatuhan (*demanding*) menjadi pemecahan masalah teknis secara kolaboratif (*problem-solving*). Kesepakatan akhir: Farrel mengunggah skema mentah sebelum pukul 13.00, dan kami menjadwalkan sesi bersama selama 30 menit pada pukul 16.00 untuk menyelesaikan konfigurasi pengujian.
 
 ## Perubahan language
 
@@ -59,3 +59,12 @@ Sebagai **teman santai**, saya mungkin hanya berujar, “Santai saja, nanti kala
 | Agreement, Action & Relationship | 3 | Tindakan lanjutan memiliki penanggung jawab, tenggat waktu konkret, dan menjaga kepercayaan relasi |
 
 **Total: 15/20 — Kompeten.** Analisis belum mencapai level 4 karena belum membedah relasi kuasa implisit (*power dynamic*) antara koordinator teknis dan anggota tim saat tenggat proyek mendesak.
+
+::: assessor-only
+### Assessment dosen
+
+**Skor:** — / 20\
+**Evidence yang mendukung:** —\
+**Prioritas perbaikan:** —\
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::

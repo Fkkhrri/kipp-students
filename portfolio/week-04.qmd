@@ -61,3 +61,12 @@ AI digunakan secara terbatas untuk melakukan uji silang (*fact-checking*) konsis
 | **Agreement, Action & Relationship** | 3 | Tenggat aksi, batas toleransi, dan kanal bantuan darurat terdefinisi secara transparan |
 
 **Total: 16/20 — Kompeten.** (Belum mencapai level 4 sempurna karena belum menguji seluruh lima versi kepada target nyata di masing-masing kategori).
+
+::: assessor-only
+### Assessment dosen
+
+**Skor:** — / 20\
+**Evidence yang mendukung:** —\
+**Prioritas perbaikan:** —\
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::
