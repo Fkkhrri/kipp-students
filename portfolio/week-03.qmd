@@ -37,7 +37,7 @@ Selama dua minggu pengerjaan proyek, rekan satu tim saya, “Izar”, memiliki k
 
 ## Analisis listening, boundary, dan repair
 
-- **Listening & Paraphrase:** Saya mengawali dialog dengan observasi konkret tanpa tuduhan moral (“tiga hari berturut-turut di atas jam 23.00”, bukan “kamu egois”). Parafrasa saya mengklarifikasi bahwa Rendy adalah seorang *night owl* yang berfokus mendokumentasikan ide, bukan berniat mengganggu waktu tidur rekan.
+- **Listening & Paraphrase:** Saya mengawali dialog dengan observasi konkret tanpa tuduhan moral (“tiga hari berturut-turut di atas jam 23.00”, bukan “kamu egois”). Parafrasa saya mengklarifikasi bahwa Izar adalah seorang *night owl* yang berfokus mendokumentasikan ide, bukan berniat mengganggu waktu tidur rekan.
 - **Boundary & Request:** Batasan (*boundary*) dinyatakan tegas: ponsel masuk mode senyap setelah pukul 22.30. Permintaan (*request*) dialihkan menjadi skema kerja asinkron yang adil Izar bebas bekerja di malam hari, namun respons interaktif baru diberikan pada pagi hari.
 - **Repair:** Pada akhir sesi, saya melakukan *repair* atas sikap pasif-agresif sebelumnya:  
   > *“Aku juga minta maaf karena dua hari lalu sempat membalas sangat singkat dan terkesan dingin di grup. Seharusnya aku menyampaikan kebutuhan istirahatku lebih awal secara langsung.”*  

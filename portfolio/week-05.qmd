@@ -15,7 +15,7 @@ Fokus: Mempraktikkan wawancara *discovery* untuk menahan asumsi solusi dini, men
 
 ## Initial assumption dan rencana discovery
 
-Saya berasumsi bahwa keterlambatan integrasi modul proyek tim disebabkan oleh **keterbatasan performa server pengujian (*staging server*)** yang spesifikasinya rendah sehingga proses kompilasi (*build*) lambat. Sebelum mengajukan usulan penambahan kapasitas server (yang membutuhkan biaya tambahan), saya mewawancarai “Rian”, seorang rekan pengembang yang menangani integrasi frontend-backend.
+Saya berasumsi bahwa keterlambatan integrasi modul proyek tim disebabkan oleh **keterbatasan performa server pengujian (*staging server*)** yang spesifikasinya rendah sehingga proses kompilasi (*build*) lambat. Sebelum mengajukan usulan penambahan kapasitas server (yang membutuhkan biaya tambahan), saya mewawancarai “Tristan”, seorang rekan pengembang yang menangani integrasi frontend-backend.
 
 **Daftar pertanyaan discovery:**
 
@@ -29,13 +29,13 @@ Saya berasumsi bahwa keterlambatan integrasi modul proyek tim disebabkan oleh **
 
 ## Potongan transcript
 
-> **Rian:** “Kemarin sore saya mau menguji respons formulir pembayaran di server bersama, tapi tiba-tiba hasil kompilasi saya galat (*error*). Setelah diusut, ternyata kodenya ditimpa oleh *build* dari modul lain yang diunggah anggota tim berbeda beberapa menit setelah saya.”  
+> **Tristan:** “Kemarin sore saya mau menguji respons formulir pembayaran di server bersama, tapi tiba-tiba hasil kompilasi saya galat (*error*). Setelah diusut, ternyata kodenya ditimpa oleh *build* dari modul lain yang diunggah anggota tim berbeda beberapa menit setelah saya.”  
 > **Fakhri:** “Jadi titik hambatannya bukan pada kecepatan mesin server saat memproses kode, melainkan ketiadaan kejelasan siapa yang sedang aktif memakai lingkungan pengujian?”  
-> **Rian:** “Persis. Spesifikasi server sebenarnya cukup cepat. Masalah utamanya adalah kami tidak tahu siapa yang sedang *deploy* secara bersamaan sehingga terjadi tabrakan konfigurasi.”  
+> **Tristan:** “Persis. Spesifikasi server sebenarnya cukup cepat. Masalah utamanya adalah kami tidak tahu siapa yang sedang *deploy* secara bersamaan sehingga terjadi tabrakan konfigurasi.”  
 > **Fakhri:** “Seberapa sering tabrakan penulisan (*deployment overwrite*) itu terjadi dan seberapa besar dampaknya?”  
-> **Rian:** “Minggu ini saja terjadi tiga kali. Setiap insiden butuh waktu 30 hingga 60 menit hanya untuk mencari tahu kode siapa yang menimpa dan memulihkan kembali berkas konfigurasi lokal.”  
+> **Tristan:** “Minggu ini saja terjadi tiga kali. Setiap insiden butuh waktu 30 hingga 60 menit hanya untuk mencari tahu kode siapa yang menimpa dan memulihkan kembali berkas konfigurasi lokal.”  
 > **Fakhri:** “Jika alur ini diperbaiki, apa batasan utama yang perlu dipertahankan?”  
-> **Rian:** “Jangan buat alur birokrasi baru seperti mengisi borang tiket panjang atau sistem persetujuan kaku setiap kali kami hanya ingin menguji perubahan kecil.”
+> **Tristan:** “Jangan buat alur birokrasi baru seperti mengisi borang tiket panjang atau sistem persetujuan kaku setiap kali kami hanya ingin menguji perubahan kecil.”
 
 ---
 
@@ -47,11 +47,11 @@ Asumsi awal saya bahwa “tim membutuhkan peningkatan spesifikasi komputasi serv
 2. **Dampak terukur:** Terbuangnya waktu 2–3 jam per minggu per pengembang murni untuk mengurai konflik kompilasi, bukan untuk menulis kode.
 3. **Constraint pengguna:** Penolakan tegas terhadap solusi yang menambah friksi birokrasi (seperti *ticketing form*).
 
-**Shared Problem Statement yang dikonfirmasi Rian:**
+**Shared Problem Statement yang dikonfirmasi Tristan:**
 
 > “Pengembang integrasi modul membutuhkan **mekanisme sinyal status pemakaian yang instan dan transparan** di lingkungan pengujian bersama, karena ketiadaan visibilitas memicu tabrakan *build* berulang yang menghabiskan 2–3 jam kerja tiap minggu untuk investigasi galat, tanpa menambah prosedur izin atau birokrasi yang memperlambat ritme kerja.”
 
-*Catatan konfirmasi:* Rian secara eksplisit meminta penghapusan istilah awal saya (“sistem reservasi terpusat”) dan menggantinya dengan “mekanisme sinyal status yang instan” agar tidak membatasi ruang eksplorasi solusi teknis ke arah perkakas yang rumit.
+*Catatan konfirmasi:* Tristan secara eksplisit meminta penghapusan istilah awal saya (“sistem reservasi terpusat”) dan menggantinya dengan “mekanisme sinyal status yang instan” agar tidak membatasi ruang eksplorasi solusi teknis ke arah perkakas yang rumit.
 
 ---
 
