@@ -24,14 +24,14 @@ Selama dua minggu pengerjaan proyek, rekan satu tim saya, “Rendy”, memiliki 
 
 ## Potongan transcript
 
-> **Fakhri:** “Ren, ada waktu sepuluh menit sebelum kelas? Aku ingin membicarakan alur koordinasi tugas kita beberapa hari terakhir.”  
-> **Rendy:** “Boleh, ada bagian tugas yang bermasalah?”  
+> **Fakhri:** “Zar, ada waktu sepuluh menit sebelum kelas? Aku mau ngomong alur koordinasi tugas kita beberapa hari terakhir.”  
+> **Izar:** “Boleh, ada bagian tugas yang bermasalah?”  
 > **Fakhri:** “Bukan soal kode atau fungsinya, melainkan jam komunikasinya. Tiga hari berturut-turut minggu ini kamu menghubungi dan mengajak sinkronisasi di atas jam 23.00. Kondisi itu membuatku sulit beristirahat karena merasa harus langsung merespons.”  
-> **Rendy:** “Oh, maaf ya. Biasanya aku baru sempat fokus penuh malam hari setelah urusan lain beres, dan kalau ide tidak langsung kutulis atau dibahas, aku takut lupa paginya.”  
+> **Izar:** “Oh, maaf ya. Biasanya aku baru sempat fokus penuh malam hari setelah urusan lain beres, dan kalau ide tidak langsung kutulis atau dibahas, aku takut lupa paginya.”  
 > **Fakhri:** “Jadi kamu aktif di jam malam karena itu waktu fokusmu, dan pesan-pesan itu tujuannya mencatat progres agar tidak terlewat, bukan menuntut balasan instan malam itu juga?”  
-> **Rendy:** “Betul persis. Aku tidak mengharuskan kamu bangun dan balas detik itu juga kok.”  
+> **Izar:** “Betul persis. Aku tidak maksa kamu bangun dan balas detik itu juga kok.”  
 > **Fakhri:** “Baik, sekarang aku paham situasimu. Dari sisiku, aku membutuhkan batasan: ponselku masuk mode senyap mulai pukul 22.30. Kamu tetap boleh mengirim pembaruan atau catatan di repositori kapan pun kamu fokus, tetapi mari sepakati bahwa obrolan langsung dibatasi maksimal pukul 22.00, dan pesan malam hari baru akan kubalas mulai pukul 08.00 pagi. Bagaimana menurutmu?”  
-> **Rendy:** “Sepakat. Nanti kalau ada catatan malam hari, aku taruh di *issue board* atau obrolan teks saja tanpa *mention* mendesak.”
+> **Izar:** “Sepakat. Nanti kalau ada catatan malam hari, aku taruh di *issue board* atau obrolan teks saja tanpa *mention* mendesak.”
 
 ---
 
