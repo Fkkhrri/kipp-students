@@ -1,0 +1,217 @@
+---
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 3b — Kasus 3: Menawarkan Solusi TI dan AI"
+author: "Fakhri Athallah Dwi Andeo"
+lang: id
+format:
+  html:
+    toc: true
+execute:
+  eval: false
+---
+
+# A) Identitas
+
+| Elemen | Keterangan |
+|---|---|
+| Nama mahasiswa | Fakhri Athallah Dwi Andeo |
+| NIM | 18225029 |
+| Kelas dan tanggal | K-01; 14 Oktober 2026 |
+| Nomor/judul kasus | Sesi 3b; Kasus 3: Menawarkan Solusi TI dan AI |
+| Nama dan ID target | Budi (K3-02) |
+| Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md |
+| Modalitas | Teks |
+| Kasus nyata/fiktif | Skenario konsultasi solusi TI/AI pelanggan fiktif terstandardisasi |
+| Kelengkapan transkrip | Lengkap (seluruh rangkaian identifikasi, eksplorasi prosedur, analisis biaya & alur, uji ulang, evaluasi, hingga refleksi) |
+| Nama laporan menurut paket | hasil_3b_18225029.qmd |
+| Konfirmasi identitas/ringkasan | Terkonfirmasi pada sesi UTS |
+
+# B) Kasus dan Tujuan
+
+## Kasus dan tujuan tindakan
+
+Brief Kasus 3 menempatkan mahasiswa berhadapan dengan Budi (K3-02), seorang pengelola usaha yang menghadapi masalah pertanyaan pelanggan berulang dan pesanan tercecer akibat keterbatasan tenaga. Berbeda dengan target sebelumnya (Fajar/ESTP yang mengejar kecepatan), Budi berkarakter sangat hati-hati (ISTJ), mengutamakan kepastian prosedur, merasa mampu dengan cara pencatatan lama, serta mengkhawatirkan biaya tambahan dan gangguan terhadap ketertiban alur kerja yang sudah berjalan.
+
+Tujuan tindakan:
+1. Menghargai komitmen dan ketertiban operasional cara lama yang telah dijalankan Budi tanpa memaksakan perubahan drastis atau mengumbar janji berlebihan.
+2. Mengidentifikasi kekhawatiran spesifik terkait biaya tersembunyi dan potensi gangguan terhadap prosedur pencatatan eksisting.
+3. Menyajikan perbandingan alur kerja lama vs alternatif baru secara tertulis dan terperinci, lengkap dengan rincian asumsi biaya yang transparan (solusi berbasis sistem katalog/formulir terstruktur dan FAQ terstandar yang hemat biaya).
+4. Merancang pelaksanaan uji coba terbatas (*pilot project*) yang berjalan paralel dengan prosedur cadangan (*backup procedure* buku kasir lama) agar operasional tetap 100% aman.
+
+Indikator keberhasilan:
+- Budi bersedia membuka rincian alur pencatatan lamanya dan mengungkapkan kekhawatiran biaya serta gangguan prosedur.
+- Tersusunnya tabel perbandingan alur kerja (lama vs baru) beserta rincian asumsi biaya tetap tanpa biaya tersembunyi.
+- Disepakatinya *pilot project* bertahap selama 5 hari dengan protokol prosedur cadangan (*dual-recording/backup*) yang tertulis jelas.
+
+## Profil awal komunikator
+
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
+|---|---|---|---|
+| SWOT subjektif | Kekuatan: mampu menyusun arsitektur prosedur, perhitungan efisiensi biaya, dan SOP tertulis secara sistematis. Keterbatasan: perlu menahan dorongan menawarkan teknologi baru sebelum mengapresiasi kemapanan prosedur lama klien. Peluang: Budi sangat menghargai kejelasan urutan dan bukti tertulis. Ancaman: penolakan total jika solusi disajikan tanpa perhitungan biaya dan prosedur cadangan yang pasti. | Refleksi diri | Terkonfirmasi |
+| Attitude | Menghormati kehati-hatian pelanggan, transparan mengenai biaya dan batasan sistem, serta menepati komitmen pendampingan. | U001, U003 | Terkonfirmasi |
+| Knowledge | Memahami perbandingan biaya antara sistem AI penuh vs automasi aturan sederhana (*rule-based FAQ & structured form*), serta prosedur *backup* operasional. | U002, U003 | Terkonfirmasi |
+| Skill | Mampu memetakan alur pembanding berdampingan (*side-by-side workflow*), merinci struktur biaya eksplisit, dan menyusun SOP prosedur cadangan. | U002, U003, U005 | Teruji dalam simulasi |
+| Preferensi/MBTI jika dilaporkan | INTJ/INTP (analitis-terstruktur; selaras dengan kebutuhan detail, kepastian urutan, dan bukti faktual dari profil ISTJ). | Laporan diri | Hipotesis kerja |
+| Karakter, peran, kultur/ko-kultur | Konsultan solusi TI yang mengutamakan kehati-hatian tata kelola (*governance*), transparansi anggaran, dan mitigasi risiko operasional. | Peran simulasi | Faktual |
+
+## Dugaan awal profil target dan rencana
+
+| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
+|---|---|---|---|---|
+| Target | Menyepakati pilot project penataan pesanan dan FAQ terstruktur dengan prosedur cadangan tertulis bersama Budi. | Mengatasi ketakutan biaya dan gangguan prosedur (A), menyediakan perbandingan alur dan asumsi biaya (K), serta menyiapkan pilot dengan prosedur cadangan (S). | Apresiasi cara lama, tabel komparasi alur & biaya eksplisit, serta protokol backup paralel. | Budi menyetujui pelaksanaan pilot project dengan prosedur cadangan tertulis. |
+| Attention | Defensif dan mempertahankan cara lama; memandang perubahan teknologi sebagai ancaman ketertiban. | Menghargai ketertiban cara lama dan menegaskan bahwa tujuan diskusi adalah melindungi pencatatan agar tidak ada yang tercecer di jam sibuk. | Pertanyaan terbuka mengenai bagaimana cara lama menjaga ketertiban dan kapan beban mulai menumpuk. | Budi menjelaskan prosedur lamanya dan kekhawatirannya terhadap perubahan. |
+| Interest | Khawatir perubahan sistem justru mengacaukan urutan kerja staf dan menimbulkan biaya membengkak. | Menyajikan perbandingan urutan langkah kerja (cara lama vs alternatif baru) dan rincian asumsi biaya Rp0/tetap secara transparan. | Penyajian matriks perbandingan 4 langkah alur kerja dan tabel simulasi biaya. | Budi memeriksa perbandingan alur dan menanyakan jaminan keamanan jika sistem baru bermasalah. |
+| Desire | Membutuhkan jaminan bahwa operasional tidak akan lumpuh jika adaptasi baru mengalami kendala. | Merancang skema *pilot project* bertahap yang dilengkapi prosedur cadangan (*backup* pencatatan paralel dan ekspor CSV harian). | Penawaran SOP Pilot + Prosedur Cadangan (buku/rekap lama tetap berjalan berdampingan di minggu pertama). | Budi menilai prosedur cadangan tersebut aman dan tertib. |
+| Action | Belum bersedia beralih tanpa jadwal pemeriksaan dan batas tanggung jawab tertulis. | Menetapkan langkah pertama, jadwal pemeriksaan harian, penanggung jawab, serta indikator keberhasilan tertulis. | Kontrak jadwal pilot 5 hari kerja dengan titik evaluasi harian pukul 17.00 WIB. | Budi menyepakati jadwal pilot dan prosedur cadangannya. |
+
+# C) Skrip Percakapan
+
+### AI001 - Budi (K3-02) - Pembuka
+Budi duduk rapi di balik meja kerjanya bersama buku log pesanan dan berkata dengan nada serius:
+"Cara sekarang sudah jelas. Mengapa harus berubah? Selama ini staf saya mencatat pesanan di buku log dan membalas pesan satu per satu sesuai urutan masuk. Memang kadang ramai, tapi aturannya sudah baku. Saya tidak ingin coba-coba sistem AI yang belum jelas biayanya dan malah merusak prosedur kerja yang sudah tertib."
+
+### U001 - Mahasiswa - Menghargai Prosedur Lama & Menggali Hambatan A
+Saya sangat menghormati ketertiban prosedur yang Bapak bangun, Pak Budi. Memiliki urutan kerja dan buku log yang baku adalah fondasi operasional yang sangat kuat, dan saya sama sekali tidak menyarankan Bapak membongkar cara yang sudah berjalan baik tersebut atau memaksakan pemakaian AI yang mahal. 
+Tujuan kita berdiskusi hari ini murni untuk melihat bagian mana dari prosedur pencatatan saat ini yang paling berisiko mengalami selisih ketika pesan pelanggan masuk bersamaan di jam ramai. Boleh Bapak ceritakan, pada kondisi seperti apa biasanya pesanan mulai berisiko tercecer atau menguras waktu staf Bapak?
+
+### AI002 - Budi (K3-02) - Pengungkapan Hambatan A (Biaya & Gangguan Prosedur)
+Budi melihat buku catatannya, sikapnya sedikit lebih terbuka karena prosedurnya dihargai:
+"Begini, prosedur kami itu terganggu kalau di pagi hari ada 30 sampai 40 pelanggan menanyakan hal yang sama—seperti daftar harga grosir, ketersediaan ukuran, dan jadwal pengiriman—sementara di sela-sela itu ada 10 pelanggan yang mengirim bukti bayar pesanan. Staf saya cuma dua orang; karena harus mengetik balasan pertanyaan itu satu-satu secara tertib, pencatatan pesanan ke buku log jadi tertunda 1–2 jam dan kadang ada satu-dua pesanan yang terlewat belum disalin. Tapi jujur saja, saya takut kalau memasang sistem baru, biayanya mahal terus-menerus dan prosedur pencatatan staf saya malah jadi kacau karena harus belajar dari nol."
+
+### U002 - Mahasiswa - Klarifikasi Fakta, Perbandingan Alur, & Asumsi Biaya Transparan (Hambatan K)
+Terima kasih atas penjelasan detailnya, Pak Budi. Masalahnya sangat spesifik: antrean pertanyaan berulang menghambat kecepatan penyalinan pesanan ke buku log. Untuk mengatasi ini, kita **tidak perlu menggunakan AI generatif berbayar mahal**, melainkan cukup menambahkan **Saringan Katalog FAQ Terstruktur & Formulir Kode Pesanan Baku** di depan prosedur lama Bapak.
+Berikut perbandingan alur dan asumsi biayanya secara tertulis:
+1. **Perbandingan Alur Kerja (4 Langkah):**
+   - *Alur Lama:* (1) Chat masuk bercampur -> (2) Staf ketik jawaban FAQ manual -> (3) Staf cari chat pesanan yang tertumpuk -> (4) Salin manual ke buku log (waktu: 10–15 menit/pesanan saat ramai).
+   - *Alur Pembanding (Baru):* (1) Chat masuk disambut menu angka `[1] Info Harga/Jadwal` atau `[2] Format Pesanan` -> (2) Pertanyaan `[1]` dijawab otomatis persis sesuai teks resmi Bapak -> (3) Pesanan `[2]` otomatis diberi Nomor Urut Baku & masuk ke lembar rekap -> (4) Staf Bapak tinggal menyalin/memverifikasi dari lembar rekap yang sudah urut ke buku log (waktu: 1 menit/pesanan).
+2. **Transparansi Biaya (Asumsi Simulasi Konsisten):**
+   - Menggunakan fitur *Auto-Reply Terstruktur & Google Sheets/Form* terintegrasi dengan biaya langganan alat bantu sebesar **Rp150.000/bulan tetap** (tanpa biaya per pesan, tanpa biaya tambahan AI), dan selama masa uji coba 1 minggu biayanya **Rp0 (gratis)**.
+Dari perbandingan urutan alur dan angka biaya tetap ini, bagian mana yang menurut Bapak perlu kita perjelas lagi?
+
+### AI003 - Budi (K3-02) - Respons atas Alur Pembanding & Pengungkapan Hambatan S
+Budi mengamati rincian alur 4 langkah dan angka biaya tersebut dengan saksama:
+"Kalau alurnya masih mempertahankan penomoran urut dan staf saya tetap bisa memverifikasi ke buku log seperti biasa, itu masuk akal. Biaya Rp150.000 per bulan juga terukur dan jelas asumsinya. Tapi saya orangnya tidak mau ambil risiko buta. Bagaimana kalau waktu dicoba nanti sistem otomatisnya macet atau staf saya bingung mengoperasikannya, lalu pesanan hari itu berantakan? Saya butuh uji coba yang ada prosedur cadangannya dan panduannya tertulis jelas."
+
+### U003 - Mahasiswa - Rencana Pilot Bertahap & Prosedur Cadangan Tertulis (Hambatan S)
+Kekhawatiran Bapak sangat tepat; setiap perubahan operasional wajib memiliki prosedur cadangan (*backup*). Oleh karena itu, saya merancang **Pilot Project 5 Hari Kerja** dengan **Prosedur Cadangan Berlapis (Paralel)** yang tertulis dalam SOP 1 halaman:
+1. **Cakupan Pilot Terbatas:** Hanya mengaktifkan menu jawaban otomatis untuk 5 pertanyaan paling sering (Harga, Stok, Ukuran, Ongkir, Jadwal Kirim) dan penomoran pesanan otomatis.
+2. **Prosedur Cadangan (Dual-Log Backup):**
+   - Selama 5 hari pilot, **Buku Log Fisik lama TIDAK dihapus**, melainkan tetap diisi berdampingan pada jam 12.00 dan 16.00 sebagai pencatatan pembanding.
+   - Setiap pukul 16.30 sore, sistem otomatis mengirimkan berkas rekap pesanan harian (format Excel/CSV siap cetak) ke email/WhatsApp Bapak sebagai arsip cadangan kedua.
+   - Tersedia **Prosedur Penghentian Darurat (1 Langkah):** Jika terjadi kendala teknis apa pun, Bapak atau staf cukup menggeser satu saklar *Nonaktifkan Menu Otomatis*, maka dalam 1 detik alur chat kembali 100% ke prosedur manual lama tanpa ada pesan pelanggan yang hilang.
+3. **Panduan Tertulis:** Saya sediakan lembar SOP berurutan (Langkah 1 s.d. 5) yang ditempel di meja staf Bapak.
+Apakah skema pilot paralel dengan buku log fisik dan saklar cadangan ini sudah cukup menjamin keamanan prosedur Bapak?
+
+### AI004 - Budi (K3-02) - Penerimaan & Permintaan Rincian Action
+Budi mengangguk mantap karena seluruh syarat keamanan prosedurnya terpenuhi:
+"Bagus. Karena buku log lama tetap dipakai berdampingan selama uji coba dan ada rekap cadangan sore hari, risiko gangguan prosedurnya hampir nol. Saya setuju menjalankan pilot 5 hari ini. Tolong tuliskan kesepakatan langkah pertama, jadwal waktu, pembagian tanggung jawab, dan indikator pemeriksaannya."
+
+### U004 - Mahasiswa - Kesepakatan Tertulis Langkah Pertama & Indikator Evaluasi (Action)
+Berikut dokumen kesepakatan pelaksanaan Pilot Project 5 Hari (Senin–Jumat) kita, Pak Budi:
+- **Langkah Pertama & Waktu:** Hari Senin besok pukul 08.00–08.30 WIB (sebelum jam operasional buka), saya menyerahkan lembar SOP tertulis, memasukkan teks resmi 5 jawaban FAQ yang Bapak setujui, dan memandu staf Bapak selama 15 menit.
+- **Pembagian Tanggung Jawab & Dukungan:** Saya bertanggung jawab menyiapkan konfigurasi menu, tabel rekap otomatis, dan pemeriksaan teknis harian. Staf Bapak bertugas memverifikasi kesesuaian tabel rekap dengan buku log pada pukul 12.00 dan 16.00 WIB.
+- **Indikator Keberhasilan Terukur:**
+  1. 100% pesanan yang masuk tercatat di tabel rekap dan sesuai jumlahnya dengan buku log fisik (*zero discrepancy*).
+  2. Waktu tunda pencatatan pesanan ke buku log turun dari 1–2 jam menjadi di bawah 15 menit.
+  3. Tidak ada pembengkakan biaya di luar asumsi yang ditetapkan.
+- **Jadwal Pemeriksaan:** Setiap hari pukul 16.30 WIB kita lakukan pengecekan singkat 5 menit, dan evaluasi akhir dilakukan hari Jumat pukul 17.00 WIB.
+Apakah Bapak menyetujui rincian jadwal dan tanggung jawab tertulis ini?
+
+### AI005 - Budi (K3-02) - Konfirmasi Kesepakatan
+"Sangat jelas dan tertib. Saya setuju dengan jadwal Senin jam 08.00 pagi dan indikator *zero discrepancy* antara rekap sistem dan buku log. Mari kita jalankan sesuai rencana tertulis ini."
+
+### AI006 - Fasilitator - Uji Ulang (Kendala Operasional Baru Terkait Prosedur Cadangan)
+Pada hari Rabu (hari ke-3 pilot), pukul 12.15 WIB saat staf sedang melakukan pencocokan siang hari, Budi menghubungi Anda dengan nada serius:
+"Fakhri, pada pemeriksaan jam 12.00 siang ini kami menemukan selisih 2 pesanan. Ada 2 pelanggan lama yang langsung mengirim foto nota tulisan tangan lewat chat tanpa menekan angka `[2] Format Pesanan`, sehingga pesanan mereka tidak masuk ke tabel rekap otomatis dan hanya tercatat di buku log manual staf saya. Selain itu, tadi pagi koneksi internet sempat putus 10 menit sehingga sinkronisasi tabel agak terlambat. Bagaimana penyesuaian prosedurnya agar pencatatan tetap satu pintu dan tertib?"
+
+### U005 - Mahasiswa - Adaptasi Uji Ulang: Revisi SOP Tertulis & Prosedur Cadangan Offline
+Terima kasih atas ketelitian pemeriksaan siang hari ini, Pak Budi. Temuan selisih 2 pesanan ini justru membuktikan bahwa prosedur cadangan (pencocokan buku log jam 12.00) bekerja dengan sangat efektif menangkap kasus khusus. Untuk menutup celah tersebut secara permanen dan tertib, saya langsung terapkan dua pembaruan prosedur tertulis siang ini:
+1. **Prosedur Penanganan Pesanan Foto/Pelanggan Lama (Revisi SOP Poin 3B):**
+   - Bagi pelanggan lama yang mengirim foto nota tanpa format teks, staf tidak perlu mengetik ulang seluruh isi nota. Saya tambahkan satu baris kode singkat `/catat [Nama] [Total]` yang bisa diketik staf langsung di ruang chat dalam 5 detik agar pesanan foto tersebut otomatis ditarik masuk ke tabel rekap dan mendapat Nomor Urut Baku yang sama dengan buku log.
+2. **Prosedur Cadangan Gangguan Internet (Offline Fallback SOP Poin 4B):**
+   - Tabel rekap sudah saya aktifkan fitur *Mode Kerja Offline Lokal*. Jika internet terputus, pesan yang masuk tetap antre di perangkat dan staf cukup memberi tanda bintang (`*`) pada chat pelanggan selama internet mati, lalu mencatat di buku log. Begitu internet menyambung kembali, sistem otomatis menyinkronkan antrean dan staf tinggal mencocokkan tanda bintang dengan tabel pada pemeriksaan jam 16.00.
+Lembar revisi SOP (Versi 1.1) sudah saya kirimkan dalam format PDF siap cetak ke WhatsApp Bapak sekarang. Pada pemeriksaan pukul 16.30 sore nanti, saya akan mendampingi langsung untuk memastikan ke-2 pesanan foto tadi sudah masuk ke rekap dengan selisih 0 (*zero discrepancy*). Apakah revisi prosedur tertulis ini sudah sesuai standar ketertiban Bapak?
+
+### AI007 - Budi (K3-02) - Konfirmasi Final Uji Ulang
+"Penjelasannya sangat sistematis. Perintah singkat `/catat` untuk nota foto dan prosedur tanda bintang saat internet putus itu menutup celah tadi dengan rapi. PDF revisi SOP Versi 1.1 sudah saya terima dan sudah saya cetak untuk staf. Kita lanjutkan pilotnya dan kita periksa kembali pukul 16.30 sore nanti."
+
+# D) Hasil, Evaluasi, dan Refleksi
+
+## Hasil tujuan dan perubahan SWOT/ASK
+
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
+|---|---|---|---|---|
+| Kesimpulan SWOT | Budi memandang adopsi sistem TI/AI sebagai ancaman (*Threat*) pembengkakan biaya dan kerusakan prosedur kerja yang sudah mapan. | Budi memandang sistem saringan FAQ & rekap terstruktur (didampingi prosedur cadangan buku log) sebagai peluang (*Opportunity*) menghilangkan keterlambatan catat dengan risiko yang terkendali penuh. | U002, U003, AI004 | Terbukti dari persetujuan pilot 5 hari dan keberhasilan mengatasi selisih pada uji ulang |
+| Attitude | Sangat berhati-hati, defensif terhadap perubahan, dan menolak segala bentuk coba-coba yang tidak memiliki kepastian aturan. | Terbuka, kooperatif, dan percaya penuh setelah melihat penghormatan terhadap prosedur lamanya serta ketepatan dokumentasi tertulis. | AI001 -> AI003 -> AI005 | Perubahan sikap teramati secara bertahap seiring terpenuhinya syarat kepastian |
+| Knowledge | Menguasai prosedur buku log manual, tetapi belum memahami alternatif solusi non-AI yang hemat biaya serta perbandingan alurnya. | Memahami perbandingan alur 4 langkah (lama vs baru), struktur biaya tetap Rp150.000/bulan, serta mekanisme sinkronisasi kasus khusus (nota foto & internet putus). | U002, U005, AI003 | Klarifikasi fakta biaya dan alur pembanding yang terkonfirmasi |
+| Skill | Operasional manual tertib, namun belum memiliki panduan adaptasi dan prosedur cadangan untuk transisi digital. | Mampu menjalankan pilot paralel (*dual-log verification*), mengeksekusi pemeriksaan berkala jam 12.00/16.00, serta menerapkan revisi SOP Versi 1.1 untuk nota foto dan gangguan internet. | U003, U004, U005, AI007 | Demonstrasi nyata dalam mendeteksi dan menyelesaikan kendala pada uji ulang |
+
+## Evaluasi stimulus–respons dan diagnosis profil
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+|---|---|---|---|---|---|
+| E1 (AI001 / U001) | Budi menolak perubahan karena merasa prosedur buku log lama sudah jelas dan khawatir biaya/kerusakan aturan (A-Hati-hati/ISTJ). | Mengapresiasi kekuatan buku log lama, menegaskan tidak akan membongkar paksa atau menjual AI mahal, dan menanyakan titik rawan saat jam sibuk. | Budi melunak dan menceritakan fakta bahwa 30–40 pertanyaan pagi hari membuat penyalinan buku log tertunda 1–2 jam. | Hambatan A mulai terurai karena cara lama dihormati dan tidak dihakimi. | Menggeser posisi dari 'mengganti prosedur lama' menjadi 'melindungi ketertiban buku log lama'. |
+| E2 (AI002 / U002) | Budi membutuhkan perbandingan alur yang jelas serta kepastian biaya (K-Biaya & alur pembanding). | Menyajikan perbandingan alur 4 langkah secara berdampingan dan menyatakan asumsi biaya tetap Rp150.000/bulan (uji coba Rp0) tanpa AI mahal. | Budi menerima logika efisiensi waktu (15 menit ke 1 menit) dan kejelasan biaya, lalu menanyakan jaminan jika sistem macet. | Hambatan K terjawab tuntas; fokus bergeser ke kesiapan pelaksanaan dan keamanan (S). | Memilih solusi tepat guna (*structured auto-reply + sheet*) alih-alih memaksakan AI kompleks. |
+| E3 (AI003 / U003, U004) | Budi membutuhkan pilot bertahap yang dilengkapi prosedur cadangan dan SOP tertulis (S). | Merancang Pilot 5 Hari dengan *Dual-Log Backup* (buku fisik tetap jalan paralel), ekspor CSV harian, saklar kembali manual, serta jadwal cek jam 12.00 & 16.00. | Budi sangat setuju karena risiko gangguan prosedurnya mendekati nol dan langsung menyepakati jadwal Senin pukul 08.00. | Hambatan S teratasi; seluruh syarat Action terpenuhi secara spesifik dan tertulis. | Mempertahankan buku log fisik selama masa transisi untuk memberi rasa aman maksimal. |
+| E4 (AI006 / U005, AI007) | Uji ulang: ditemukan selisih 2 pesanan akibat pelanggan kirim foto nota & internet sempat putus 10 menit. | Mengapresiasi ketelitian temuan Budi, menambahkan perintah `/catat` (SOP 3B) untuk nota foto, dan prosedur tanda bintang/offline (SOP 4B) dalam PDF SOP Versi 1.1. | Budi menerima revisi SOP, mencetaknya untuk staf, dan melanjutkan pilot hingga tuntas. | Kepercayaan dan ketertiban prosedur tetap terjaga kokoh saat menghadapi anomali operasional. | Menjawab anomali lapangan dengan pembaruan nomor versi SOP tertulis yang baku. |
+
+## Pengaruh pesan personal dan kualitas relasi
+
+| Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+|---|---|---|---|---|
+| U001 | Menghormati ketertiban buku log yang telah dibangun Budi ("fondasi operasional yang sangat kuat") tanpa menuntut kedekatan emosional semu. | Budi berhenti bersikap defensif dan mulai merinci angka beban pertanyaan harian stafnya. | Rasa aman dan keterbukaan meningkat dari Rendah ke Sedang. | Penghargaan atas hasil kerja dan prosedur masa lalu merupakan bentuk penghormatan personal yang paling dihargai profil ISTJ. |
+| U002, U003 | Memberikan transparansi biaya tanpa syarat tersembunyi serta menjaga buku log fisik tetap hidup sebagai cadangan. | Budi menyatakan skema tersebut masuk akal dan risikonya hampir nol. | Kepercayaan meningkat ke tingkat Tinggi. | Kepedulian dalam bentuk proteksi risiko operasional menciptakan rasa aman untuk mencoba hal baru. |
+| U004, U005 | Menepati komitmen pemeriksaan berkala dan langsung mengirimkan dokumen revisi SOP Versi 1.1 saat muncul selisih 2 pesanan. | Budi memuji kesistematisan solusi dan langsung mencetak SOP revisi untuk stafnya. | Kepercayaan dan rasa dipedulikan bertahan kokoh pada tingkat Tinggi. | Konsistensi pendampingan dan ketertiban administrasi membuktikan kesungguhan profesional. |
+
+## Uji ulang dan pembelajaran
+
+Pada tahap uji ulang, muncul dua kendala operasional nyata yang sering terjadi pada digitalisasi UMKM: pelanggan lama yang mengirim foto nota tulisan tangan (tidak mengikuti format teks) dan gangguan koneksi internet singkat yang menyebabkan selisih 2 data antara tabel otomatis dan buku log fisik. Berkat adanya prosedur cadangan *Dual-Log Verification* yang dirancang pada sesi awal, selisih tersebut langsung terdeteksi pada pukul 12.00 siang tanpa ada pesanan pelanggan yang hilang. Adaptasi komunikator dengan menerbitkan adendum tertulis (SOP Versi 1.1) yang memuat pintasan `/catat` dan protokol tanda bintang saat *offline* membuktikan bahwa terhadap pelanggan yang menjunjung ketertiban prosedur, setiap masalah baru harus diselesaikan melalui standarisasi prosedur tertulis, bukan sekadar improvisasi lisan.
+
+## Penilaian enam dimensi
+
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
+|---|---|---|---|
+| Tujuan dan konteks | 4 | U001, U003, U004 | Tujuan solusi TI disesuaikan secara proporsional (automasi terstruktur hemat biaya) dengan fokus menjaga ketertiban pencatatan. |
+| Persepsi dan validasi profil/status | 4 | U001, U002, U003 | Mengenali secara presisi kebutuhan profil Budi (ISTJ) akan kepastian biaya, perbandingan dengan cara lama, dan prosedur cadangan. |
+| Pemilihan dan urutan repertoar | 4 | U001 -> U002 -> U003 -> U004 -> U005 | Urutan sangat sistematis: validasi prosedur lama -> komparasi alur & biaya -> desain pilot + backup -> kontrak tertulis -> revisi SOP. |
+| Eksekusi jelas, peduli dan konsisten | 4 | U002, U003, U005 | Bahasa terstruktur, transparan soal asumsi biaya, tidak memaksakan AI berlebihan, dan konsisten menyediakan dokumen tertulis. |
+| Evaluasi dan adaptasi | 4 | U005 | Merespons temuan selisih 2 pesanan dan kendala internet pada uji ulang dengan pembaruan SOP tertulis (Versi 1.1) yang terukur. |
+| Refleksi dan lesson learned | 4 | Refleksi akhir | Mampu menganalisis kontras adaptasi strategi antara Sesi 3a (Fajar/ESTP) dan Sesi 3b (Budi/ISTJ) pada kasus bisnis yang sama. |
+
+**Nilai sesi:** 100 (Jumlah skor: 24 / 24 × 100). Usulan skor AI memerlukan moderasi dosen.
+
+## Refleksi dan lesson learned mahasiswa
+
+- **Dugaan yang dikoreksi:** Dari perbandingan Sesi 3a (Fajar) dan Sesi 3b (Budi), saya belajar bahwa dua pemilik usaha dengan masalah operasional yang sama persis membutuhkan pendekatan komunikasi yang bertolak belakang. Jika kepada Fajar (ESTP) saya harus memangkas penjelasan dan langsung mendemonstrasikan kecepatan dalam 30 detik, kepada Budi (ISTJ) kecepatan instan tanpa prosedur justru dianggap sembrono. Budi membutuhkan **penghormatan terhadap cara lamanya, perbandingan alur langkah demi langkah, rincian biaya yang pasti, serta prosedur cadangan (*dual-log backup*)**.
+- **Stimulus efektif/tidak efektif:** Stimulus yang menghambat bagi Budi adalah menyuruhnya langsung meninggalkan buku log lama atau menawarkan teknologi AI canggih yang biayanya fluktuatif. Stimulus yang sangat efektif adalah menyandingkan alur lama dengan alur baru, menawarkan solusi tepat guna dengan biaya tetap yang jelas, dan menjalankan buku log fisik secara paralel selama masa uji coba.
+- **Pertumbuhan PASK/ASK diri:** Persepsi saya tumbuh dalam menghargai nilai stabilitas prosedur; penolakan pelanggan terhadap teknologi baru sering kali bukan karena kolot, melainkan karena tanggung jawab mereka menjaga operasional agar tidak lumpuh. Keterampilan saya meningkat dalam merancang protokol *pilot project* dengan jaring pengaman berlapis (*dual-recording* dan *offline fallback*).
+- **Relasi:** Terhadap klien yang berorientasi pada ketertiban dan komitmen seperti Budi, rasa dipercaya dan dipedulikan tumbuh ketika kita tidak meremehkan sistem lama mereka, transparan membuka asumsi biaya di awal, dan patuh pada jadwal pemeriksaan yang telah disepakati.
+- **Pelajaran untuk situasi berikutnya:** Sebelum menawarkan solusi teknologi baru, selalu petakan apakah lawan bicara membutuhkan *kecepatan aksi (demo & checklist singkat)* atau *kepastian prosedur (komparasi alur, rincian biaya, & sistem cadangan paralel)*.
+
+## Tindak lanjut dan batas bukti
+
+| Langkah | Penanggung jawab | Waktu | Dukungan | Indikator/cara evaluasi | Status rencana/pelaksanaan |
+|---|---|---|---|---|---|
+| Penyerahan SOP Versi 1.0 & setup menu FAQ/Pesanan | Mahasiswa & Budi | Senin, Pukul 08.00 WIB | Lembar SOP cetak & konfigurasi auto-reply | Sistem aktif sebelum toko buka tanpa mengganggu staf | Terlaksana dalam simulasi |
+| Pemeriksaan pencocokan tabel rekap vs buku log (Harian) | Staf Budi & Mahasiswa | Senin–Jumat, Pukul 12.00 & 16.30 WIB | Tabel rekap CSV & Buku Log Fisik | Selisih pencatatan = 0 (*zero discrepancy*) setelah revisi SOP 1.1 | Teruji pada simulasi hari ke-3 |
+| Evaluasi akhir Pilot Project 5 Hari | Mahasiswa & Budi | Jumat, Pukul 17.00 WIB | Laporan rekap mingguan & catatan waktu tunda | Waktu tunda catat < 15 menit; keputusan lanjut langganan tetap | Terjadwal dalam rencana |
+
+*Batas bukti:* Seluruh rangkaian konsultasi dan uji ulang merupakan simulasi berbasis teks; angka biaya Rp150.000/bulan merupakan asumsi simulasi yang dinyatakan secara konsisten, dan ketahanan operasional riil di lapangan memerlukan verifikasi di luar sesi simulasi.
+
+## Bobot dan nilai akhir UTS
+
+| Komponen | Bobot | Nilai komponen |
+|---|---:|---|
+| Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100 (Menunggu penilaian dosen) |
+| Sesi 1 | 18% | 100 (usulan AI: 24/24 × 100) |
+| Sesi 2a | 18% | 100 (usulan AI: 24/24 × 100) |
+| Sesi 2b | 18% | 100 (usulan AI: 24/24 × 100) |
+| Sesi 3a | 18% | 100 (usulan AI: 24/24 × 100) |
+| Sesi 3b | 18% | 100 (usulan AI: 24/24 × 100) |
+| **Total** | **100%** | **Belum dihitung** (Menunggu nilai Makalah `M` dari dosen) |
+
+- **Ringkasan Kasus 1 (Sesi 1):** 100 (Kontribusi 18%)
+- **Ringkasan Kasus 2 (Rata-rata Sesi 2a & 2b):** 100 (Kontribusi 36%)
+- **Ringkasan Kasus 3 (Rata-rata Sesi 3a & 3b):** 100 (Kontribusi 36%)
+
+**Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)**. Sesuai aturan penilaian resmi, nilai akhir UTS ditulis **Belum dihitung** sampai nilai makalah (`M`) dari dosen tersedia dan seluruh usulan skor AI selesai dimoderasi oleh dosen.
