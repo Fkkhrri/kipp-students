@@ -203,11 +203,11 @@ Pada tahap uji ulang, muncul dua kendala operasional nyata yang sering terjadi p
 | Komponen | Bobot | Nilai komponen |
 |---|---:|---|
 | Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100 (Menunggu penilaian dosen) |
-| Sesi 1 | 18% | 100 (usulan AI: 24/24 × 100) |
-| Sesi 2a | 18% | 100 (usulan AI: 24/24 × 100) |
-| Sesi 2b | 18% | 100 (usulan AI: 24/24 × 100) |
-| Sesi 3a | 18% | 100 (usulan AI: 24/24 × 100) |
-| Sesi 3b | 18% | 100 (usulan AI: 24/24 × 100) |
+| Sesi 1 | 18% | Belum Dinilai |
+| Sesi 2a | 18% | Belum Dinilai |
+| Sesi 2b | 18% | Belum Dinilai |
+| Sesi 3a | 18% | Belum Dinilai |
+| Sesi 3b | 18% | Belum Dinilai |
 | **Total** | **100%** | **Belum dihitung** (Menunggu nilai Makalah `M` dari dosen) |
 
 - **Ringkasan Kasus 1 (Sesi 1):** 100 (Kontribusi 18%)

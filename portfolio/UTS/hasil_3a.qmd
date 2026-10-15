@@ -190,10 +190,10 @@ Pada tahap uji ulang, muncul skenario pergantian personel mendadak di tengah jam
 | Komponen | Bobot | Nilai komponen |
 |---|---:|---|
 | Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100 |
-| Sesi 1 | 18% | 100 (usulan AI: 24/24 × 100) |
-| Sesi 2a | 18% | 100 (usulan AI: 24/24 × 100) |
-| Sesi 2b | 18% | 100 (usulan AI: 24/24 × 100) |
-| Sesi 3a | 18% | 100 (usulan AI: 24/24 × 100) |
+| Sesi 1 | 18% | Belum Dinilai |
+| Sesi 2a | 18% | Belum Dinilai |
+| Sesi 2b | 18% | Belum Dinilai |
+| Sesi 3a | 18% | Belum Dinilai |
 | Sesi 3b | 18% | Belum dilaksanakan |
 | **Total** | **100%** | **Belum dihitung** |
 
