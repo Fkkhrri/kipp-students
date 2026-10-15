@@ -1498,62 +1498,51 @@
     "href": "portfolio/week-06.html#evidence-wajib",
     "title": "Target–Attention Challenge",
     "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nTarget map dan alasan memilih satu target.\nProblem/opportunity pitch serta evidence.\nResponse, state sesudah pitch, dan adaptation.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 6 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "text": "Evidence wajib\n\nTarget map dan alasan memilih satu target.\nProblem/opportunity pitch serta evidence.\nResponse, state sesudah pitch, dan adaptation.",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-06.html#konteks-performance",
-    "href": "portfolio/week-06.html#konteks-performance",
+    "objectID": "portfolio/week-06.html#target-map",
+    "href": "portfolio/week-06.html#target-map",
     "title": "Target–Attention Challenge",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "Target map",
+    "text": "Target map\nKonteks isu: Keterlambatan verifikasi data pemilih dan penumpukan pertanyaan berulang di meja registrasi/helpdesk saat pelaksanaan pemungutan suara dan kegiatan organisasi mahasiswa.\n\n\n\n\n\n\n\n\n\nPerson\nRelevance\nAuthority\nCurrent state\n\n\n\n\nKetua Umum Organisasi\nBertanggung jawab atas kelancaran acara umum\nDapat menyetujui perubahan kebijakan besar\nUnaware / Netral\n\n\nKoordinator Helpdesk & Registrasi\nMenangani langsung antrean verifikasi dan komplain anggota\nDapat mengubah alur kerja operasional meja layanan\nProblem aware\n\n\nAnggota / Pemilih\nMengalami langsung waktu tunggu verifikasi\nDapat memberikan umpan balik pengalaman pengguna\nProblem aware\n\n\nTim Pengembang Back-End\nMengelola basis data dan server aplikasi\nDiperlukan bila ada modifikasi skema database\nBelum dilibatkan\n\n\n\nSaya memilih Koordinator Helpdesk & Registrasi sebagai target awal karena ia merasakan langsung beban antrean verifikasi (direct operational pain) dan memiliki kewenangan penuh untuk memvalidasi apakah masalah utamanya terletak pada alur pencarian data atau keterbatasan petugas, sebelum mengajukan perubahan sistem kepada Ketua Umum.",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-06.html#evidence",
-    "href": "portfolio/week-06.html#evidence",
+    "objectID": "portfolio/week-06.html#attention-pitch",
+    "href": "portfolio/week-06.html#attention-pitch",
     "title": "Target–Attention Challenge",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "section": "Attention pitch",
+    "text": "Attention pitch\n\n“Berdasarkan catatan waktu tunggu pada simulasi registrasi gelombang pertama kemarin, 4 dari 12 anggota membutuhkan waktu lebih dari 4 menit di meja verifikasi karena petugas harus mencocokkan NIM dan status keaktifan di tiga tab spreadsheet yang terpisah. Selain itu, log pesan helpdesk mencatat 9 pertanyaan berulang mengenai kendala token tidak muncul dalam waktu satu jam. Saya belum menyimpulkan bahwa sistem intinya bermasalah. Bolehkah kita memeriksa bersama apakah hambatan utamanya ada pada tampilan pencarian data petugas dan ketiadaan panduan status otomatis?”\n\nEvidence yang dipakai: Pengamatan durasi verifikasi pada 12 sampel partisipan gelombang pertama dan rekapitulasi 9 pesan masuk di log helpdesk. Ukuran sampel disebutkan secara eksplisit di awal agar tidak menggeneralisasi keseluruhan acara.",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-06.html#analisis-komunikasi",
-    "href": "portfolio/week-06.html#analisis-komunikasi",
+    "objectID": "portfolio/week-06.html#response-dan-state-assessment",
+    "href": "portfolio/week-06.html#response-dan-state-assessment",
     "title": "Target–Attention Challenge",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
+    "section": "Response dan state assessment",
+    "text": "Response dan state assessment\nKoordinator menjawab: “Memang betul kemarin sempat antre agak panjang di meja verifikasi, tapi 4 orang yang lama itu kebetulan mahasiswa angkatan baru yang datanya belum sinkron dari pusat, bukan semata-mata karena petugas lambat membuka tiga tab.”\nRespons ini menunjukkan target mengakui adanya isu keterlambatan, namun mengoreksi penyebab dan meragukan generalisasi data (karena sampel gelombang pertama didominasi kasus khusus angkatan baru). State target berpindah dari Problem aware menjadi Attention dengan reservation (keberatan bersyarat), dan belum masuk ke tahap Interest terhadap solusi teknis baru.\nSaya melakukan adaptasi (adaptation) tanpa memaksakan asumsi awal:\n\n“Poin yang sangat tepat, kasus angkatan baru kemarin memang belum tentu mewakili antrean reguler. Supaya kita tidak salah mengambil langkah, bolehkah saya ikut mengamati pencatatan waktu verifikasi untuk 20 peserta reguler pada sesi siang ini dan memisahkan mana kendala data belum sinkron vs kendala pencarian tab?”\n\nKoordinator menyetujui observasi bersama pada sesi siang dengan syarat tidak mengganggu jalannya antrean dan tidak menyalin data kontak pribadi peserta. Objective percakapan diadaptasi dari semula menawarkan perombakan tampilan dashboard menjadi menyepakati pemisahan kategori bukti (data disaggregation) pada sesi reguler.",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-06.html#penggunaan-ai",
-    "href": "portfolio/week-06.html#penggunaan-ai",
+    "objectID": "portfolio/week-06.html#evidence-dan-refleksi",
+    "href": "portfolio/week-06.html#evidence-dan-refleksi",
     "title": "Target–Attention Challenge",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Target–Attention Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-06.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-06.html#feedback-dan-tindak-lanjut",
-    "title": "Target–Attention Challenge",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "Evidence dan refleksi",
+    "text": "Evidence dan refleksi\n\nTarget map: Versi awal (menargetkan Ketua Umum) dikoreksi menjadi menargetkan Koordinator Helpdesk & Registrasi untuk validasi operasional langsung.\nCatatan Observasi & Log: Log 12 sampel sesi awal dibandingkan dengan kesepakatan observasi 20 sampel sesi reguler.\nAgreement: Koordinator mengizinkan pencatatan waktu agregat (tanpa menyimpan nama/nomor telepon pribadi) pada sesi siang pukul 13.00–14.00 WIB dan meninjau hasilnya bersama pukul 15.00 WIB.\nPemanfaatan AI: AI digunakan untuk menguji draf kalimat attention pitch agar tidak terdengar menyalahkan kinerja petugas meja layanan serta memisahkan fakta observasi dari opini. AI tidak digunakan untuk mengarang angka sampel.\nNext practice: Menyiapkan klasifikasi penyebab masalah (root-cause tagging) sejak awal observasi agar saat menyampaikan pitch, variabel pengganggu (seperti kasus angkatan baru) sudah terpisah dengan jelas.",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
@@ -1564,7 +1553,7 @@
     "href": "portfolio/week-06.html#self-assessment",
     "title": "Target–Attention Challenge",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence singkat\n\n\n\n\nPerson & Character\n3\nMemilih Koordinator Helpdesk yang mengalami masalah langsung dan berwenang di lapangan\n\n\nObjective & State\n3\nMengenali perpindahan state ke Attention with reservation tanpa memaksakan solusi\n\n\nRepertoire, Language & AI\n3\nPitch menyebutkan ukuran sampel secara jujur dan tidak menyalahkan petugas\n\n\nResponse & Adaptation\n4\nMengubah objective menjadi observasi terpisah saat target mengkritisi bias sampel\n\n\nAgreement, Action & Relationship\n4\nMenyepakati observasi 20 sampel reguler pukul 13.00 dengan batas privasi data yang jelas\n\n\n\nTotal: 17/20 — Kompeten.\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
@@ -6451,62 +6440,51 @@
     "href": "portfolio/week-07.html#evidence-wajib",
     "title": "Problem–Solution Interest Pitch",
     "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nAttention evidence dan problem–solution link.\nInterest pitch dengan evidence atau demonstration.\nResponse, state assessment, hidden concern, dan adaptation.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 7 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "text": "Evidence wajib\n\nAttention evidence dan problem–solution link.\nInterest pitch dengan evidence atau demonstration.\nResponse, state assessment, hidden concern, dan adaptation.",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#konteks-performance",
-    "href": "portfolio/week-07.html#konteks-performance",
+    "objectID": "portfolio/week-07.html#attention-evidence-dan-solution-hypothesis",
+    "href": "portfolio/week-07.html#attention-evidence-dan-solution-hypothesis",
     "title": "Problem–Solution Interest Pitch",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "Attention evidence dan solution hypothesis",
+    "text": "Attention evidence dan solution hypothesis\nBerdasarkan hasil observasi terpisah pada 20 peserta reguler di sesi Minggu 6, ditemukan bahwa 13 dari 20 proses verifikasi memakan waktu lebih dari 3 menit murni karena petugas harus mencari NIM secara manual di tiga tab spreadsheet yang berbeda, serta terdapat 14 pertanyaan berulang di helpdesk mengenai status aktivasi token. Koordinator Helpdesk & Registrasi telah mengakui bahwa pencarian multi-tab dan ketiadaan cek status mandiri adalah masalah operasional yang nyata.\nSolution hypothesis: Antarmuka pencarian satu pintu (single-search lookup view) untuk petugas meja layanan yang dikombinasikan dengan halaman cek status mandiri berbasis NIM (hanya menampilkan status Aktif/Belum Aktif tanpa membuka data pribadi) dapat memangkas waktu verifikasi dan mengurangi antrean pertanyaan di meja helpdesk tanpa mengubah database utama.\n\n\n\n\n\n\n\n\n\nProblem\nMechanism\nExpected benefit\nValue bagi target\n\n\n\n\nPencarian data di 3 tab berbeda\nSatu kolom pencarian terpadu (VLOOKUP/QUERY view)\nPetugas melihat status keaktifan & token dalam satu layar\nWaktu verifikasi per anggota turun di bawah 30 detik\n\n\nPertanyaan berulang soal status token\nHalaman cek status mandiri (read-only via input NIM)\nAnggota memeriksa status aktivasi sebelum mengantre\nBeban antrean komplain di meja helpdesk berkurang",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#evidence",
-    "href": "portfolio/week-07.html#evidence",
+    "objectID": "portfolio/week-07.html#pitch-dan-demonstration",
+    "href": "portfolio/week-07.html#pitch-dan-demonstration",
     "title": "Problem–Solution Interest Pitch",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "section": "Pitch dan demonstration",
+    "text": "Pitch dan demonstration\n\n“Dari observasi 20 peserta reguler kemarin, waktu tunggu terlama terjadi saat petugas berpindah-pindah di tiga tab dan menjawab pertanyaan status token. Prototipe ini tidak mengubah database utama Anda: petugas cukup mengetik NIM di satu kotak pencarian ini untuk melihat seluruh status sekaligus, dan peserta bisa mengecek status aktifnya sendiri lewat tautan read-only sebelum ke meja. Mari kita uji di satu meja layanan selama sesi pagi besok; keberhasilannya kita ukur dari durasi verifikasi rata-rata dan jumlah antrean tanya token.”\n\nSaya mendemonstrasikan prototipe pencarian satu layar selama 60 detik dengan memasukkan dua contoh NIM dummy. Koordinator mencoba mengetik satu NIM secara langsung dan merespons: “Pencarian satu layarnya sangat membantu petugas kami, tapi kalau halaman cek mandiri dibuka untuk umum, bagaimana kalau ada orang iseng yang memasukkan NIM temannya satu per satu untuk mengintip status keaktifan dan kode tokennya?”",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#analisis-komunikasi",
-    "href": "portfolio/week-07.html#analisis-komunikasi",
+    "objectID": "portfolio/week-07.html#hidden-concern-dan-adaptation",
+    "href": "portfolio/week-07.html#hidden-concern-dan-adaptation",
     "title": "Problem–Solution Interest Pitch",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
+    "section": "Hidden concern dan adaptation",
+    "text": "Hidden concern dan adaptation\nAwalnya saya menduga keberatan utama (concern) target adalah kesulitan teknis petugas dalam mempelajari tampilan baru. Respons target menunjukkan bahwa hidden concern sebenarnya adalah privasi data anggota dan risiko penyalahgunaan kode token jika halaman cek mandiri hanya mengandalkan NIM yang mudah ditebak.\nSaya tidak mempertahankan desain awal halaman cek mandiri tersebut dan langsung melakukan adaptasi mekanisme:\n\nPerubahan Mekanisme Keamanan: Halaman cek mandiri publik tidak lagi menampilkan kode token maupun detail pribadi; halaman tersebut hanya memerlukan kombinasi NIM + 4 digit terakhir nomor telepon terdaftar dan hanya memunculkan indikator status umum (“Terdaftar – Silakan cek email resmi” atau “Data memerlukan verifikasi meja bantuan”).\nPembatasan Akses (Permission): Tampilan pencarian lengkap beserta tombol kirim ulang token dikunci khusus untuk akun Google petugas meja layanan (restricted viewer/operator), bukan tautan terbuka.\nPenyesuaian Klaim: Sasaran uji coba dipersempit dari “menghilangkan seluruh antrean helpdesk” menjadi “menguji apakah tampilan pencarian satu layar mempercepat kerja petugas meja layanan tanpa celah privasi”.\n\nTarget menunjukkan signal Interest yang kuat dengan mencoba kombinasi input NIM + 4 digit nomor telepon pada prototipe revisi dan mendiskusikan penempatan satu petugas untuk uji coba sesi pagi, meskipun keputusan pemakaian penuh untuk seluruh meja baru akan ditentukan setelah evaluasi sesi pagi.",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#penggunaan-ai",
-    "href": "portfolio/week-07.html#penggunaan-ai",
+    "objectID": "portfolio/week-07.html#evidence-ai-dan-feedback",
+    "href": "portfolio/week-07.html#evidence-ai-dan-feedback",
     "title": "Problem–Solution Interest Pitch",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Problem–Solution Interest Pitch"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-07.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-07.html#feedback-dan-tindak-lanjut",
-    "title": "Problem–Solution Interest Pitch",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "Evidence, AI, dan feedback",
+    "text": "Evidence, AI, dan feedback\n\nPrototipe V1 dan V2: Tangkapan layar perubahan antarmuka dari V1 (input NIM saja) menjadi V2 (verifikasi 2 parameter NIM + 4 digit nomor HP tanpa menampilkan token di layar publik).\nPengaturan Akses: Dokumentasi pengaturan sheet protection dan pembatasan akses email petugas.\nCatatan Observasi: Pertanyaan klarifikasi “Bagian mana dari alur ini yang paling berisiko bagi tim Anda?” berhasil memunculkan hidden concern terkait privasi sebelum uji coba dilakukan.\nPemanfaatan AI: AI digunakan untuk membantu merumuskan formula QUERY yang efisien dan menyusun daftar kemungkinan skenario penyalahgunaan form publik. Keputusan pembatasan akses dan kebijakan privasi tetap ditentukan bersama Koordinator.\nNext practice: Selalu menyertakan analisis risiko privasi dan batasan hak akses (access control) sejak demonstrasi pertama ketika solusi melibatkan data pengguna.",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
@@ -6517,7 +6495,7 @@
     "href": "portfolio/week-07.html#self-assessment",
     "title": "Problem–Solution Interest Pitch",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence singkat\n\n\n\n\nPerson & Character\n3\nMengenali tanggung jawab Koordinator terhadap keamanan data anggota\n\n\nObjective & State\n3\nMembedakan perpindahan state dari Attention menuju Interest melalui diskusi teknis prototipe\n\n\nRepertoire, Language & AI\n3\nMenggunakan demo interaktif 60 detik, pertanyaan terbuka, dan bantuan formula terarah\n\n\nResponse & Adaptation\n4\nMengubah mekanisme halaman cek mandiri dengan 2 faktor input untuk menjawab isu privasi\n\n\nAgreement, Action & Relationship\n4\nTarget setuju meninjau prototipe V2 dan menjadwalkan uji terbatas di 1 meja layanan\n\n\n\nTotal: 17/20 — Kompeten.\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
