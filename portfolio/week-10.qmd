@@ -1,8 +1,8 @@
 ---
 title: "Action & Agreement Challenge"
 week: 10
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "17/20"
 assessor_score: "—"
 description: "Barrier, authority, negotiation, agreement, dan action evidence."
 categories: [TAIDA, Action]
@@ -18,8 +18,54 @@ Menemukan desire–action gap dan menghasilkan agreement yang feasible serta eks
 - Options dan trade-off yang dibahas.
 - Agreement dengan owner/deadline serta bukti action atau review.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 10](../examples/week-10.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+## Desire–action gap
 
-{{< include ../includes/evidence-template.md >}}
+Koordinator Helpdesk & Registrasi telah menyetujui *desired state* dan *technical check* pada Minggu 9, namun uji coba penuh di lapangan belum juga dijalankan. Penelusuran lanjutan (*discovery*) menunjukkan adanya empat hambatan konkret dan pemisahan kewenangan (*authority*):
+
+| Barrier | Person dengan authority | Respons |
+|---|---|---|
+| Izin penggunaan data keaktifan anggota untuk uji coba | Ketua Umum Organisasi | Menyetujui batasan (*scope*) data yang boleh diakses saat uji coba |
+| Pemeriksaan hak akses (*permission*) dan keamanan formula | Tim Pengembang Back-End | Memberikan *technical clearance* dan audit privasi |
+| Penugasan petugas meja dan pencatatan durasi layanan | Koordinator Helpdesk & Registrasi | Mengatur rotasi petugas dan briefing alur baru |
+| Pembuatan antarmuka V3 dan rekap evaluasi | Saya (Fakhri) | Menyusun prototipe, dokumentasi, dan laporan hasil |
+
+Sebelumnya saya sempat keliru meminta Koordinator Helpdesk untuk langsung menyetujui peluncuran penuh di seluruh meja layanan, padahal otoritas persetujuan kebijakan akses data anggota berada di tangan **Ketua Umum Organisasi** dan verifikasi keamanan teknis berada di tangan **Tim Pengembang Back-End**.
+
+## Options dan trade-off
+
+Untuk menjembatani *desire–action gap* tanpa membebani seluruh panitia, tiga opsi skenario dipaparkan beserta konsekuensi (*trade-off*)-nya:
+
+1. **Pilot 1 Sesi (3 jam), 1 Meja Layanan:** Cakupan sampel terbatas (sekitar 40–60 peserta), namun risiko gangguan operasional sangat rendah dan waktu audit keamanan singkat.
+2. **Pilot Penuh 2 Hari, Seluruh Meja Layanan:** Menghasilkan data statistik yang jauh lebih kuat, tetapi membutuhkan proses audit keamanan menyeluruh dan pelatihan untuk seluruh petugas meja.
+3. **Simulasi Tertutup dengan Data Dummy Saja:** Aman dari risiko paparan data anggota asli, tetapi tidak menguji tekanan antrean nyata di lapangan.
+
+Berdasarkan diskusi bersama Koordinator Helpdesk dan perwakilan Tim Pengembang Back-End, disepakati **Opsi 1** dengan syarat ketat tidak ada nomor telepon/email anggota yang ditampilkan di layar publik dan tautan halaman cek mandiri dapat dinonaktifkan seketika (*kill-switch*).
+
+## Agreement eksplisit
+
+> **Scope:** Satu meja layanan registrasi (Meja A) pada sesi pendaftaran ulang tanggal 18 November, pukul 08.30–11.30 WIB.  
+> **Owner:** Fakhri (18225029) menyiapkan antarmuka V3 dan lembar pencatatan; perwakilan Tim Back-End melakukan audit *permission*; Koordinator Helpdesk memberi pengarahan 10 menit kepada petugas Meja A.  
+> **Deadline:** Audit keamanan teknis selesai 16 November pukul 18.00 WIB; keputusan final *go/no-go* dari Ketua Umum dan Koordinator pada 17 November pukul 12.00 WIB.  
+> **Evidence:** Catatan median waktu verifikasi (dalam detik), jumlah pertanyaan berulang terkait token di Meja A dibanding Meja B (kontrol), dan log insiden sinkronisasi.  
+> **Stop rule:** Pilot langsung dihentikan dan dialihkan ke pencarian tab manual jika terjadi keterlambatan sinkronisasi data lebih dari 3 menit sebanyak dua kali, atau ditemukan celah tampilan data pribadi.  
+> **Review:** Evaluasi hasil bersama Koordinator Helpdesk pada 18 November pukul 13.00 WIB.
+
+## Action evidence dan adaptation
+
+Saat melakukan audit teknis pada 16 November, perwakilan Tim Back-End menemukan bahwa tautan *published view* spreadsheet V3 masih mengizinkan pengguna menyalin teks (*copy/download*) pada kolom status mentah jika pengguna membuka *developer tools* peramban. Saya segera memutus akses ekspor/salin dan mengganti lapisan tampilan publik dengan endpoint *read-only* terfilter yang hanya mengembalikan satu nilai boolean status berdasarkan kecocokan hash NIM + 4 digit nomor HP. 
+
+Tangkapan layar pengaturan pembatasan akses (*permission setting*), log uji penetrasi sederhana dari Tim Back-End, serta pesan konfirmasi *go* dari Ketua Umum terdokumentasi sebagai bukti tindakan nyata (*action evidence*), bukan sekadar kesepakatan lisan.
+
+AI dimanfaatkan untuk menyusun daftar periksa (*checklist*) potensi celah kebocoran data pada tampilan web *read-only*, namun keputusan kelayakan keamanan (*clearance*) tetap berada pada Tim Back-End. Saya tidak menggunakan AI untuk mengklaim bahwa sistem sudah "100% bebas celah".
+
+## Self-assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 3 | Kewenangan Ketua Umum, Tim Back-End, dan Koordinator Helpdesk dipetakan terpisah |
+| Objective & State | 3 | *Desire–action gap* diidentifikasi secara spesifik menjadi empat hambatan operasional |
+| Repertoire, Language & AI | 3 | Tiga opsi dan *trade-off* disajikan secara proporsional tanpa melebih-lebihkan klaim AI |
+| Response & Adaptation | 4 | Temuan audit Tim Back-End langsung mengubah mekanisme akses data sebelum peluncuran |
+| Agreement, Action & Relationship | 4 | Kesepakatan memuat *scope, owner, deadline, evidence, stop rule*, dan jadwal *review* |
+
+**Total: 17/20 — Lanjut.**

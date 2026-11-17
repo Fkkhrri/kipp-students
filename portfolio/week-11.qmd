@@ -1,8 +1,8 @@
 ---
 title: "Multi-Person Negotiation Challenge"
 week: 11
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "18/20"
 assessor_score: "—"
 description: "Stakeholder map, interests, options, trade-offs, dan agreement."
 categories: [Negotiation, Stakeholder]
@@ -18,8 +18,55 @@ Memfasilitasi beberapa person dengan objective, constraint, authority, dan state
 - Position–interest analysis, common ground, dan options.
 - Negotiation evidence, agreement/dissent, dan relationship review.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 11](../examples/week-11.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+## Stakeholder dan multi-state map
 
-{{< include ../includes/evidence-template.md >}}
+Setelah pilot 1 meja pada Minggu 10 menunjukkan penurunan waktu verifikasi, tim berencana memperluas penerapan ke seluruh meja layanan pada acara puncak. Negosiasi lintas pemangku kepentingan dilakukan untuk menyelaraskan kepentingan dan batasan tiap pihak:
+
+| Person | Position | Interest/constraint | Authority | State |
+|---|---|---|---|---|
+| Ketua Umum Organisasi | “Perluas ke semua meja asal acara lancar” | Reputasi acara, kelancaran antrean, dan minim komplain | Final approval kebijakan | Desire |
+| Koordinator Helpdesk & Registrasi | “Jangan tambah input manual baru bagi petugas” | Pencegahan kelelahan petugas (*workload shift*) saat jam puncak | Operasional & rotasi petugas | Desire |
+| Tim Pengembang Back-End | “Gunakan endpoint resmi tanpa file perantara” | Keamanan data pribadi (*privacy*) dan integritas *single source of truth* | Technical clearance | Attention |
+| Perwakilan Anggota / Peserta | “Status token harus tampil *real-time* saat baru bayar” | Kepastian verifikasi instan tanpa perlu antre ulang di meja bantuan | Dapat menggunakan atau mengabaikan layanan | Interest |
+
+**Common ground:** Seluruh pihak sepakat untuk mengurangi penumpukan antrean verifikasi dan pertanyaan berulang secara tertib, tanpa menimbulkan beban input ganda bagi petugas maupun celah kebocoran data pribadi anggota.
+
+## Negotiation evidence
+
+> **Tim Back-End:** “Kami menolak penggunaan spreadsheet penghubung baru untuk mengirim ulang token otomatis karena berisiko membuka celah akses database utama.”  
+> **Perwakilan Anggota:** “Kalau pembaruan status hanya dilakukan manual setiap satu jam, peserta yang baru mendaftar di lokasi tetap harus mengantre lama di meja helpdesk.”  
+> **Saya (Fakhri):** “Kedua pihak sama-sama ingin menghindari kesalahan data dan penantian tanpa kepastian. Bagaimana jika halaman cek mandiri tetap membaca langsung dari *endpoint* resmi setiap 5 menit dengan verifikasi 2 parameter (NIM + 4 digit HP), namun fitur pengiriman ulang token otomatis ditahan dan tetap ditangani satu klik oleh petugas meja bantuan?”  
+> **Koordinator Helpdesk:** “Tombol kirim ulang satu klik di layar petugas itu tetap butuh pencatatan log agar tidak ada token ganda.”  
+> **Saya (Fakhri):** “Siapa yang memiliki kewenangan untuk mengaktifkan pencatatan log otomatis pada tombol kirim ulang tersebut?”  
+> **Tim Back-End:** “Kami bisa menambahkan pencatatan log audit itu, tetapi baru siap minggu depan setelah pengujian keamanan selesai.”
+
+Saya tidak memaksakan kesepakatan tunggal untuk seluruh fitur sekaligus, melainkan memisahkan rencana perluasan menjadi dua tahap implementasi (*phased rollout*).
+
+## Options, agreement, dan dissent
+
+Berdasarkan batasan teknis dan operasional di atas, disepakati pembagian ruang lingkup sebagai berikut:
+
+- **Tahap 1 (Acara Puncak Minggu Ini):** Penerapan antarmuka pencarian satu layar bagi seluruh petugas meja layanan serta halaman cek status mandiri *read-only* (pembaruan tiap 5 menit via *endpoint* resmi), tanpa fitur pengiriman ulang token otomatis oleh pengguna.
+- **Tahap 2 (Kegiatan Berikutnya):** Penambahan tombol kirim ulang token terintegrasi lengkap dengan *audit log* otomatis setelah Tim Back-End menyelesaikan pengujian keamanan minggu depan.
+
+Ketua Umum, Koordinator Helpdesk, dan Tim Back-End menyetujui pelaksanaan **Tahap 1**. Sementara itu, **Perwakilan Anggota mencatat *specific disagreement* (keberatan spesifik)**: tanpa fitur kirim ulang token otomatis secara mandiri, peserta yang mengalami kegagalan pengiriman email tetap harus mengantre di meja bantuan khusus. Keberatan ini didokumentasikan secara resmi dalam notulensi keputusan sebagai dasar evaluasi Tahap 2, bukan dihapus demi kesepakatan semu.
+
+**Ambang Evaluasi (Review Threshold):** Evaluasi dilakukan 2 hari setelah acara puncak. Apabila halaman cek status mandiri digunakan oleh kurang dari 35% peserta yang hadir atau gagal menurunkan antrean pertanyaan token di meja bantuan, pengembangan fitur lanjutan Tahap 2 akan ditinjau ulang.
+
+## Relationship review dan AI
+
+Catatan pengamatan menunjukkan bahwa pada awal diskusi saya sempat merangkum kepentingan tim teknis terlalu cepat dan memotong penjelasan Perwakilan Anggota mengenai keluhan keterlambatan email token. Saya segera melakukan perbaikan (*repair*) dengan meminta maaf, mengembalikan giliran bicara kepada Perwakilan Anggota hingga selesai, dan memastikan keberatannya masuk dalam catatan resmi keputusan. Di akhir pertemuan, keempat pemangku kepentingan mengonfirmasi bahwa posisi dan batasan masing-masing telah dicatat secara akurat.
+
+AI dimanfaatkan sebelum pertemuan untuk memetakan daftar potensi konflik kepentingan (*position vs. interest*) dan menghasilkan beberapa alternatif opsi kompromi. Seluruh keputusan opsi final lahir murni dari kesepakatan otoritas dan batasan nyata para pemangku kepentingan di ruang rapat, bukan ditentukan oleh AI.
+
+## Self-assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Posisi, kepentingan, batasan, dan otoritas keempat pihak dipetakan dinamis sepanjang diskusi |
+| Objective & State | 4 | Perbedaan *state* (Attention hingga Desire) dikelola melalui pemisahan tujuan dua tahap |
+| Repertoire, Language & AI | 3 | Menggunakan teknik *reframing*, pertanyaan otoritas, dan batas peran AI secara jelas |
+| Response & Adaptation | 4 | Batasan waktu pengujian keamanan Tim Back-End diadaptasi dengan memecah rilis menjadi Tahap 1 & 2 |
+| Agreement, Action & Relationship | 3 | Kesepakatan, catatan *dissent* resmi, ambang evaluasi, dan *repair* komunikasi terdokumentasi utuh |
+
+**Total: 18/20 — Lanjut.**
