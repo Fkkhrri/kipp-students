@@ -69,3 +69,12 @@ AI dimanfaatkan untuk menyusun daftar periksa (*checklist*) potensi celah keboco
 | Agreement, Action & Relationship | 4 | Kesepakatan memuat *scope, owner, deadline, evidence, stop rule*, dan jadwal *review* |
 
 **Total: 17/20 — Lanjut.**
+
+::: assessor-only
+### Assessment dosen
+
+**Skor:** — / 20\
+**Evidence yang mendukung:** —\
+**Prioritas perbaikan:** —\
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::

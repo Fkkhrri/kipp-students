@@ -80,3 +80,12 @@ AI hanya digunakan setelah musyawarah untuk memeriksa apakah draf ringkasan notu
 | Agreement, Action & Relationship | 3 | *Sufficient agreement*, catatan *dissent*, *safeguard*, pembagian aksi, dan jadwal evaluasi tercapai |
 
 **Total: 19/20 — Lanjut.** Skor didasarkan pada kelengkapan dokumentasi musyawarah, mekanisme pengaman non-represif, serta rencana evaluasi terukur.
+
+::: assessor-only
+### Assessment dosen
+
+**Skor:** — / 20\
+**Evidence yang mendukung:** —\
+**Prioritas perbaikan:** —\
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::

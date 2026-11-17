@@ -62,3 +62,12 @@ Berdasarkan respons tersebut, saya memodifikasi arsitektur prototipe V2 menjadi 
 | Agreement, Action & Relationship | 3 | *Technical check* 15 menit disepakati sebelum uji coba penuh tanpa pemaksaan komitmen |
 
 **Total: 17/20 — Lanjut.** Skor didukung oleh perubahan arsitektur solusi yang substantif berdasarkan masukan target, bukan sekadar perubahan retorika.
+
+::: assessor-only
+### Assessment dosen
+
+**Skor:** — / 20\
+**Evidence yang mendukung:** —\
+**Prioritas perbaikan:** —\
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::
